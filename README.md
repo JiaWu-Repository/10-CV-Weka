@@ -22,6 +22,7 @@ Suppose we have 100 instances, and we want to estimate accuracy with cross valid
 * Use 10-CV to evaluate the model (KNN with default K value).
 * Choose the best K value (1-10);
 
+### Exercise -III
 * Load "diabetes.arff";
-* Use 10-CV to evaluate the model (KNN with default K value).
-* Choose the best K value (1-10);
+* Use 10-CV to evaluate the model (KNN with default K value);
+* Choose the best K value (1-10) and compare with the Naive Bayes.
