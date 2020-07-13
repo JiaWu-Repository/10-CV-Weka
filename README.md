@@ -1,6 +1,6 @@
 # Evaluation-Weka
 
-# Cross-Validation
+## Cross-Validation
 * Widely used approach for estimating test error.
 *  Estimates can be used to select best model, and to give an idea of the test error of the final chosen model.
 *  Idea is to randomly divide the data into 𝑘 equal-sized parts. We leave out one part, fit the model to the other 𝑘 − 1 parts (combined), and then obtain predictions for the left-out part.
