@@ -6,7 +6,7 @@
 *  Idea is to randomly divide the data into 𝑘 equal-sized parts. We leave out one part, fit the model to the other 𝑘 − 1 parts (combined), and then obtain predictions for the left-out part.
 * This is done in turn for each part 1, 2, . . . 𝑘, and then the results are combined.
 
-![image](Figs/Fig3.png)
+![image](Figs/Fig1.png)
 
 * A schematic display of 5-fold CV. A set of n observations is randomly split into five non-overlapping groups. Each of these fifths acts as a validation set (shown in beige), and the remainder as a training set (shown in blue). The test error is estimated by averaging the five resulting estimates.
 
@@ -15,7 +15,7 @@
 
 ### Exercise -III
 Suppose we have 100 instances, and we want to estimate accuracy with cross validation. What is the final accuary?
-![image](Figs/Fig4.png)  
+![image](Figs/Fig2.png)  
 
 ### Exercise -IV
 * Load "segment‐challenge.arff";
