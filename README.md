@@ -13,11 +13,11 @@
 * Cross-validation allows us to use (almost) all the training data to evaluate our model (most useful in low-data situations). 
 10-fold or 5-fold is most commonly used.
 
-### Exercise -III
+### Exercise -I
 Suppose we have 100 instances, and we want to estimate accuracy with cross validation. What is the final accuary?
 ![image](Figs/Fig2.png)  
 
-### Exercise -IV
+### Exercise -II
 * Load "segment‐challenge.arff";
 * Use 10-CV to evaluate the model (KNN with default K value).
 * Choose the best K value (1-10);
